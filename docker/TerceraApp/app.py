@@ -3,7 +3,7 @@ import boto3
 
 app = Flask(__name__)
 dynamodb = boto3.resource('dynamodb', region_name='us-east-1')
-tabla = dynamodb.Table('tabla-juangomez')
+tabla = dynamodb.Table('tabla-santi')
 
 
 @app.route('/insert', methods=['POST'])
