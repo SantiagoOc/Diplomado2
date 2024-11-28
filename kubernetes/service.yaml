@@ -4,7 +4,7 @@ metadata:
   name: 1040752571-service
 spec:
   selector:
-    app: 1040752571
+    app: soc-1040752571
   ports:
     - protocol: TCP
       port: 80

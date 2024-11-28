@@ -3,16 +3,16 @@ kind: Deployment
 metadata:
   name: 1040752571-deployment
   labels:
-    app: 1040752571
+    app: soc-1040752571
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: 1040752571
+      app: soc-1040752571
   template:
     metadata:
       labels:
-        app: 1040752571
+        app: soc-1040752571
     spec:
       containers:
       - name: soc-contenedor
